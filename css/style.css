@@ -71,7 +71,7 @@ li {
 .hamburger {
   width: 100px;
   height: 100px;
-  background-color: #ff2a2a;
+  background-color: #33ccff;
   position: fixed;
   top: 0;
   right: 0;
@@ -264,7 +264,7 @@ jQueryのプラグインを使う等便利なやり方が色々ありますが�
 今回は学習のためにアニメーションを使用しています。
 */
 #mainvisual .fade li {
-  width: 75%;
+  width: 100%;
   position: absolute;
   top: 0;
   right: 0;
@@ -307,7 +307,7 @@ jQueryのプラグインを使う等便利なやり方が色々ありますが�
 /*
 「box-shadow」で画像のまわりをぼかす
 */
-#mainvisual .fade li::after {
+/*#mainvisual .fade li::after {
   content: "";
   position: absolute;
   top: 0;
@@ -315,7 +315,7 @@ jQueryのプラグインを使う等便利なやり方が色々ありますが�
   left: 0;
   right: 0;
   box-shadow: inset 0px 0px 20px 20px #fff;
-}
+}*/
 /*
 アニメーション処理
 上の「animation」で15sを指定しているので下記の処理を15秒かけて実行
