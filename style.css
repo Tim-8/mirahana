@@ -318,7 +318,7 @@ html {
 body {
   font-family: "Montserrat",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
   line-height: 1.8;
-  color: #FFCC66/*333*/;
+  color: #333;
   font-size: 15px;
   font-size: 0.9375rem;
 }
@@ -385,7 +385,7 @@ img {
 }
 
 .heading-primary--white {
-  color: #fff;
+  color: #FFCC66/*fff*/;
 }
 
 .heading-primary__sub {
@@ -480,9 +480,8 @@ img {
 
 .header.active {
   padding: 20px 30px;
-  background-color: #21054d;
+  background-color: #33CCFF/*21054d*/;
 }
-
 @media screen and (max-width: 768px) {
   .header.active {
     padding: 10px 15px;
