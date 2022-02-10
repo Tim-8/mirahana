@@ -6,7 +6,7 @@
   text-align: center;
   color: $color-text;
   border-radius: 20px;
-  background-color: #FFCC66/*e8e8e8*/;
+  background-color: #e8e8e8;
 
   @include font-size(12);
   @include mq(md) {

@@ -642,7 +642,7 @@ img {
 .global-nav__link {
   position: relative;
   display: inline-block;
-  color: #fff;
+  color: #FFCC66/*fff*/;
 }
 
 .global-nav__link::after {

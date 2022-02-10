@@ -57,7 +57,7 @@
     letter-spacing: .2em;
     -ms-writing-mode: tb-rl;
     text-transform: uppercase;
-    color: #FFCC66/*fff*/;
+    color: #fff;
 
     @include font-size(12);
     @include mq(md) {
@@ -73,7 +73,7 @@
     height: 80px;
     content: "";
     animation: scrollDownLine 1.5s cubic-bezier(1, 0, 0, 1) infinite;
-    background: #FFCC66/*fff*/;
+    background: #fff;
 
     @include mq(md) {
       height: 50px;
@@ -109,7 +109,7 @@
   align-items: center;
   justify-content: center;
   height: 240px;
-  color: #FFCC66/*fff*/;
+  color: #fff;
   background-image: url(../img/hero.jpg);
   background-repeat: no-repeat;
   background-position: center center;
