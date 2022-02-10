@@ -908,7 +908,7 @@ img {
 
 .btn-grad:hover {
   text-decoration: none;
-  color: #fff;
+  color: #FFCC66;
   background-position: right center;
   /* change the direction of the change here */
 }
