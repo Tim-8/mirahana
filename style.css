@@ -1121,7 +1121,7 @@ img {
   font-weight: 900;
   display: block;
   transform: translateY(-50%);
-  color: #391e88;
+  color: #26a0da;
 }
 
 .post-pager__home {
@@ -1151,7 +1151,7 @@ img {
 
 .pagination__link {
   color: #fff;
-  background-image: linear-gradient(135deg, #7633a4, #250d65);
+  background-image: linear-gradient(135deg, #26a0da, #314755);
 }
 
 .pagination__link:hover {
