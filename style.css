@@ -908,7 +908,7 @@ img {
 
 .btn-grad:hover {
   text-decoration: none;
-  color: #FFCC66;
+  color: #fff;
   background-position: right center;
   /* change the direction of the change here */
 }
@@ -1399,7 +1399,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color: #FFCC66;
   background-image: url(/img/hero.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -1460,7 +1460,7 @@ img {
   letter-spacing: .2em;
   -ms-writing-mode: tb-rl;
   text-transform: uppercase;
-  color: #fff;
+  color: #FFCC66;
   font-size: 12px;
   font-size: 0.75rem;
   writing-mode: vertical-lr;
@@ -1480,7 +1480,7 @@ img {
   height: 80px;
   content: "";
   animation: scrollDownLine 1.5s cubic-bezier(1, 0, 0, 1) infinite;
-  background: #fff;
+  background: #FFCC66;
 }
 
 @media screen and (max-width: 768px) {
@@ -1518,7 +1518,7 @@ img {
   align-items: center;
   justify-content: center;
   height: 240px;
-  color: #fff;
+  color: #FFCC66;
   background-image: url(../img/hero.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -2123,7 +2123,7 @@ img {
 
 .job-list__detail {
   padding: 60px 95px;
-  border: 1px solid #b067cf;
+  border: 1px solid #FFCC66;
   border-radius: 6px;
   background-color: #fff;
 }
