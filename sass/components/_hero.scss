@@ -57,7 +57,7 @@
     letter-spacing: .2em;
     -ms-writing-mode: tb-rl;
     text-transform: uppercase;
-    color: #fff;
+    color: #FFCC66/*fff*/;
 
     @include font-size(12);
     @include mq(md) {
@@ -73,7 +73,7 @@
     height: 80px;
     content: "";
     animation: scrollDownLine 1.5s cubic-bezier(1, 0, 0, 1) infinite;
-    background: #fff;
+    background: #FFCC66/*fff*/;
 
     @include mq(md) {
       height: 50px;
