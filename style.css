@@ -581,7 +581,7 @@ img {
     height: 100%;
     transition: opacity .3s ease;
     opacity: 0;
-    background-image: linear-gradient(135deg, #7633a4, #250d65);
+    background-image: linear-gradient(135deg, #1d80b9, #0a499b);
   }
   .global-nav.show {
     visibility: visible;
