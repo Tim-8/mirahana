@@ -581,7 +581,7 @@ img {
     height: 100%;
     transition: opacity .3s ease;
     opacity: 0;
-    background-image: linear-gradient(135deg, #1d80b9, #0a499b);
+    background-image: linear-gradient(135deg, #33CCFF, #15576d);
   }
   .global-nav.show {
     visibility: visible;
@@ -834,7 +834,7 @@ img {
   color: #fff;
   border-radius: 50px;
   /*background-image: linear-gradient(to right, #7633a4 0%, #250d65 51%, #7633a4 100%);*/
-  background-image: linear-gradient(to right, #0362f0 0%, #001c97 51%, #0362f0 100%);
+  background-image: linear-gradient(to right, #FFCC66 0%, #c79e4d 51%, #FFCC66 100%);
   background-size: 200% auto;
   font-size: 14px;
   font-size: 0.875rem;
