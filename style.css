@@ -642,7 +642,7 @@ img {
 .global-nav__link {
   position: relative;
   display: inline-block;
-  color: #FFCC66/*fff*/;
+  color: #fff;
 }
 
 .global-nav__link::after {
@@ -654,7 +654,7 @@ img {
   height: 1px;
   content: "";
   transition: width .3s;
-  background-color: #fff;
+  background-color: #33CCFF;
 }
 
 @media screen and (max-width: 768px) {
