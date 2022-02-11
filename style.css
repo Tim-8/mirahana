@@ -812,7 +812,7 @@ img {
   text-decoration: none;
   color: #fff;
   border-radius: 50%;
-  background-color: #dd33ff/*391e88*/;
+  background-color: #33CCFF/*391e88*/;/*ページ右下の上にもどる矢印の色*/
 }
 
 .page-top__link:hover {
@@ -1096,7 +1096,7 @@ img {
   height: 100%;
   padding: 10px 20px;
   text-decoration: none;
-  color: #391e88;
+  color: #ff33dd/*391e88*/;
   font-size: 14px;
   font-size: 0.875rem;
 }
