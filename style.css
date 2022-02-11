@@ -1427,7 +1427,7 @@ img {
 
 @media screen and (max-width: 768px) {
   .hero__title {
-    line-height: 5.4;
+    line-height: 20.4;
     font-size: 48px;
     font-size: 3rem;
   }
