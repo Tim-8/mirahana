@@ -480,7 +480,7 @@ img {
 
 .header.active {
   padding: 20px 30px;
-  background-color: #33CCFF/*21054d*/;/*トップバーの色*/
+  background-color: #1c2497/*21054d*/;/*トップバーの色*/
 }
 @media screen and (max-width: 768px) {
   .header.active {
@@ -642,7 +642,7 @@ img {
 .global-nav__link {
   position: relative;
   display: inline-block;
-  color: #FFCC66/*fff*/;
+  color: #e066ff/*fff*/;
 }
 
 .global-nav__link::after {
