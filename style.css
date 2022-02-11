@@ -385,7 +385,7 @@ img {
 }
 
 .heading-primary--white {
-  color: #ff0000/*fffFFCC66*/;
+  color: #FFCC66/*fffFFCC66*/;/*各ページに移った後のタイトル文字色*/
 }
 
 .heading-primary__sub {
