@@ -21,6 +21,13 @@ $(function () {
     return false;
   });
 
+  $('.inview-balloon').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
+    if(isInView){
+      // 要素が表示されたらballoonクラスを追加
+      $(this).stop().addClass('balloon');
+    }
+  });
+
   //ページトップへ戻る
   var $pageTop = $('.page-top');
   $(window).scroll(function () {

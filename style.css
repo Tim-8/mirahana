@@ -1666,6 +1666,168 @@ img {
   text-align: center;
 }
 
+
+/*-------------------------------------------
+Voice
+-------------------------------------------*/
+#voice {
+  margin-bottom: 120px;
+}
+#voice .item-left,
+#voice .item-right {
+  display: flex;
+  align-items: flex-start;
+  opacity: 0;
+  margin-bottom: 60px;
+}
+#voice .item-left {
+  justify-content: flex-start;
+}
+#voice .item-left:last-of-type {
+  margin-bottom: 0;
+}
+#voice .item-right {
+  justify-content: flex-end;
+}
+#voice .student img {
+  width: 120px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+#voice .student .name {
+  font-size: 0.75rem;
+  text-align: center;
+}
+/* ふきだしを設定 */
+#voice .item-left .balloon-text,
+#voice .item-right .balloon-text {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  background: #e9f1fb;
+  border-radius: 15px;
+  padding: 20px;
+  position: relative;
+}
+#voice .item-left .balloon-text {
+  margin-left: 25px;
+}
+/* 左のふきだしの矢印部分を設定 */
+#voice .item-left .balloon-text::before {
+  content: "";
+  position: absolute;
+  top: 60%;
+  left: 0;
+  margin-left: -30px;
+  border: 15px solid transparent;
+  border-right: 15px solid #e9f1fb;
+}
+#voice .item-right .balloon-text {
+  margin-right: 25px;
+}
+/* 右のふきだしの矢印部分を設定 */
+#voice .item-right .balloon-text::before {
+  content: "";
+  position: absolute;
+  top: 60%;
+  right: 0;
+  margin-right: -30px;
+  border: 15px solid transparent;
+  border-left: 15px solid #e9f1fb;
+}
+/*
+アニメーションを実行
+
+balloon：下で定義している「@keyframes balloon」を実行
+0.5s：アニメーションが始まってから終わるまでの時間（0.5sかけて実行）
+ease-out：アニメーションの変化（開始時は早く、終了時は緩やかに変化）
+0s：アニメーションが始まるまでの時間（0sですぐに実行）
+1：アニメーションの繰り返し回数（1回）
+forwards：アニメーション終了時の状態をそのまま維持
+*/
+#voice .balloon {
+  animation: balloon 0.5s ease-out 0s 1 forwards;
+}
+/*
+アニメーション処理
+
+最初は「transform: scale(0.1);」で要素を小さくした状態で、「opacity: 0;」で非表示にしておく
+0.5秒かけて要素を表示させながら元のサイズへ戻す
+*/
+@keyframes balloon {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/*-------------------------------------------
+Summary
+-------------------------------------------*/
+/*
+アニメーションを実行
+
+fall：下で定義している「@keyframes fall」を実行
+10s：アニメーションが始まってから終わるまでの時間（10sかけて実行）
+infinite：アニメーションの繰り返し回数(無限に繰り返す)
+linear：アニメーションの変化（開始から終了まで一定に変化）
+*/
+#summary {
+  background: url("../img/bg.gif") repeat;
+  animation: fall 10s infinite linear;
+  padding: 60px 0;
+  margin-bottom: 120px;
+}
+/*
+アニメーション処理
+
+10秒かけて背景画像の位置「background-position」を移動させる動作を繰り返す
+*/
+@keyframes fall {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -700px 700px;
+  }
+}
+#summary .menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#summary .menu li {
+  width: 48%;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 60px;
+  margin-bottom: 32px;
+}
+/* 3つ目以降はmargin-bottomを設定しない */
+#summary .menu li:nth-child(n + 3) {
+  margin-bottom: 0;
+}
+#summary .menu-title {
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+}
+#summary .menu-title .ja {
+  display: block;
+  font-size: 1.75rem;
+  margin-bottom: 15px;
+}
+#summary .menu-title .en {
+  display: block;
+  font-size: 1.125rem;
+  margin-bottom: 30px;
+}
+
 /*----------------------------------
  works
 ----------------------------------*/
