@@ -106,7 +106,7 @@
 .company {
   padding: 130px 0 130px 0;
   text-align: center;
-  background-image: url(/img/bg-circle.png), url(/img/bg-face.png);
+  background-image: url(/img/bg-circle.png)/*, url(/img/bg-face.png)*/;
   background-position: center center,center center;
 
   @include mq(md) {

@@ -1,6 +1,6 @@
 .greeting {
   padding: 100px 0 70px;
-  background-image: url(/img/bg-circle.png), url(/img/bg-face.png);
+  background-image: url(/img/bg-circle.png)/*, url(/img/bg-face.png)*/;
   background-position: center -20px, center 40px;
 
   @include mq(md) {
