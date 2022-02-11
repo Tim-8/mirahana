@@ -642,7 +642,7 @@ img {
 .global-nav__link {
   position: relative;
   display: inline-block;
-  color: #e066ff/*fff*/;
+  color: #fff;/*トップバーの文字色*/
 }
 
 .global-nav__link::after {
