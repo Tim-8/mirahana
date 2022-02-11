@@ -1480,7 +1480,7 @@ img {
   height: 80px;
   content: "";
   animation: scrollDownLine 1.5s cubic-bezier(1, 0, 0, 1) infinite;
-  background: #FFCC66;
+  background: #33CCFF;/*スクロールバーのバーの色*/
 }
 
 @media screen and (max-width: 768px) {
