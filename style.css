@@ -399,7 +399,7 @@ img {
 .heading-secondary {
   font-weight: bold;
   line-height: 1;
-  color: #33CCFF/*391e88*/;
+  color: #ff66f2/*391e88*/;
   font-size: 32px;
   font-size: 2rem;
 }
@@ -551,7 +551,7 @@ img {
 
 .copyright__link {
   text-decoration: none;
-  color: #a798b7;
+  color: #fff;/*copyrightの文字色*/
 }
 
 .copyright__link:hover {
@@ -642,7 +642,7 @@ img {
 .global-nav__link {
   position: relative;
   display: inline-block;
-  color: #fff;/*トップバーの文字色*/
+  color: #FFCC66;/*トップバーの文字色*/
 }
 
 .global-nav__link::after {
