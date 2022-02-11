@@ -384,6 +384,15 @@ img {
   }
 }
 
+.mirahana {
+  background-color: #fff;
+  display: flex;
+  width: 500px;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+}
+
 .heading-primary--white {
   color: #FFCC66/*fffFFCC66*/;/*各ページに移った後のタイトル文字色*/
 }
