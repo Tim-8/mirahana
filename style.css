@@ -924,7 +924,7 @@ img {
 
 .card__img {
   width: 100%;
-  height: auto;
+  height: 80%;
 }
 
 .card__body {
