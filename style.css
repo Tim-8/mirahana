@@ -1096,7 +1096,7 @@ img {
   height: 100%;
   padding: 10px 20px;
   text-decoration: none;
-  color: #ff33dd/*391e88*/;
+  color: #33CCFF/*391e88*/;/*NEWSの前のページ、後のページに行くやつ*/
   font-size: 14px;
   font-size: 0.875rem;
 }
@@ -1460,7 +1460,7 @@ img {
   letter-spacing: .2em;
   -ms-writing-mode: tb-rl;
   text-transform: uppercase;
-  color: #FFCC66;
+  color: #33CCFF;/*scroolバーの色*/
   font-size: 12px;
   font-size: 0.75rem;
   writing-mode: vertical-lr;
