@@ -384,7 +384,6 @@ img {
   }
 }
 
-
 .heading-primary--white {
   color: #FFCC66/*fffFFCC66*/;/*各ページに移った後のタイトル文字色*/
 }
@@ -481,7 +480,7 @@ img {
 
 .header.active {
   padding: 20px 30px;
-  background-color: #338bff/*21054d*/;/*トップバーの色*/
+  background-color: #33CCFF/*21054d*/;/*トップバーの色*/
 }
 @media screen and (max-width: 768px) {
   .header.active {
@@ -643,7 +642,7 @@ img {
 .global-nav__link {
   position: relative;
   display: inline-block;
-  color: #33CCFF;/*トップバーの文字色*/
+  color: #FFCC66;/*トップバーの文字色*/
 }
 
 .global-nav__link::after {
@@ -924,8 +923,8 @@ img {
 }
 
 .card__img {
-  width: 100%;
-  height: 80%;
+  width: 50%;
+  height: 50%;
 }
 
 .card__body {
@@ -1097,7 +1096,7 @@ img {
   height: 100%;
   padding: 10px 20px;
   text-decoration: none;
-  color: #33CCFF/*391e88*/;/*NEWSの前のページ、後のページに行くやつ*/
+  color: #33CCFF/*391e88*/;/*ページ移る*/
   font-size: 14px;
   font-size: 0.875rem;
 }
@@ -1461,7 +1460,7 @@ img {
   letter-spacing: .2em;
   -ms-writing-mode: tb-rl;
   text-transform: uppercase;
-  color: #33CCFF;/*scroolバーの色*/
+  color: #FFCC66;
   font-size: 12px;
   font-size: 0.75rem;
   writing-mode: vertical-lr;
@@ -1481,7 +1480,7 @@ img {
   height: 80px;
   content: "";
   animation: scrollDownLine 1.5s cubic-bezier(1, 0, 0, 1) infinite;
-  background: #33CCFF;/*スクロールバーのバーの色*/
+  background: #FFCC66;
 }
 
 @media screen and (max-width: 768px) {
