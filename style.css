@@ -881,7 +881,7 @@ img {
 }
 
 .btn--transparent {
-  border: 1px solid #fff;
+  border: 1px solid #33CCFF;/*トップの「相談する]ボタン*/
   background: none;
 }
 
