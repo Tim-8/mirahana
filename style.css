@@ -333,7 +333,7 @@ body {
 a {
   transition: .3s;
   text-decoration: none;
-  color: #33CCFF /*#391e88*/;
+  color: #5DB9E5 /*#391e88*/;
 }
 
 a:hover {
@@ -347,7 +347,7 @@ img {
 
 ::selection {
   color: #fff;
-  background-color: #33CCFF/*391e88*/;
+  background-color: #5DB9E5/*391e88*/;
 }
 
 .video {
@@ -372,7 +372,7 @@ img {
   line-height: 1.2;
   letter-spacing: .05em;
   text-transform: uppercase;
-  color: #33CCFF/*391e88*/;/*ABOUT US などの大文字, 題目*/
+  color: #5DB9E5/*391e88*/;/*ABOUT US などの大文字, 題目*/
   font-size: 36px;
   font-size: 2.25rem;
 }
@@ -385,7 +385,7 @@ img {
 }
 
 .heading-primary--white {
-  color: #FFCC66/*fffFFCC66*/;/*各ページに移った後のタイトル文字色*/
+  color: #F5C20D/*fffF5C20D*/;/*各ページに移った後のタイトル文字色*/
 }
 
 .heading-primary__sub {
@@ -399,7 +399,7 @@ img {
 .heading-secondary {
   font-weight: bold;
   line-height: 1;
-  color: #33CCFF/*391e88*/;
+  color: #5DB9E5/*391e88*/;
   font-size: 32px;
   font-size: 2rem;
 }
@@ -581,7 +581,7 @@ img {
     height: 100%;
     transition: opacity .3s ease;
     opacity: 0;
-    background-image: linear-gradient(135deg,#f7dfb1, #FFCC66);/*リストの背景カラー*/
+    background-image: linear-gradient(135deg,#f7dfb1, #F5C20D);/*リストの背景カラー*/
   }
   .global-nav.show {
     visibility: visible;
@@ -642,7 +642,7 @@ img {
 .global-nav__link {
   position: relative;
   display: inline-block;
-  color: #33CCFF;/*トップバーの文字色*/
+  color: #5DB9E5;/*トップバーの文字色*/
 }
 
 .global-nav__link::after {
@@ -654,7 +654,7 @@ img {
   height: 1px;
   content: "";
   transition: width .3s;
-  background-color: #FFCC66;/*右上のリストの_*/
+  background-color: #F5C20D;/*右上のリストの_*/
 }
 
 @media screen and (max-width: 768px) {
@@ -706,7 +706,7 @@ img {
   height: 2px;
   transition: all .4s;
   border-radius: 4px;
-  background-color: #33CCFF;/*タブのカラー*/
+  background-color: #5DB9E5;/*タブのカラー*/
 }
 
 .btn-menu__line::before, .btn-menu__line::after {
@@ -734,7 +734,7 @@ img {
 
 .btn-menu.active .btn-menu__line::before, .btn-menu.active .btn-menu__line::after {
   top: 0;
-  background-color: #33CCFF;/*タブのカラーX*/
+  background-color: #5DB9E5;/*タブのカラーX*/
 }
 
 .btn-menu.active .btn-menu__line::before {
@@ -812,7 +812,7 @@ img {
   text-decoration: none;
   color: #fff;
   border-radius: 50%;
-  background-color: #33CCFF/*391e88*/;/*ページ右下の上にもどる矢印の色*/
+  background-color: #5DB9E5/*391e88*/;/*ページ右下の上にもどる矢印の色*/
 }
 
 .page-top__link:hover {
@@ -834,7 +834,7 @@ img {
   color: #fff;
   border-radius: 50px;
   /*background-image: linear-gradient(to right, #7633a4 0%, #250d65 51%, #7633a4 100%);*/
-  background-image: linear-gradient(to right, #FFCC66 0%, #ffde9f 51%, #ffc144 100%);
+  background-image: linear-gradient(to right, #F5C20D 0%, #ffde9f 51%, #ffc144 100%);
   background-size: 200% auto;
   font-size: 14px;
   font-size: 0.875rem;
@@ -881,7 +881,7 @@ img {
 }
 
 .btn--transparent {
-  border: 1px solid #33CCFF;/*トップの「相談する]ボタン*/
+  border: 1px solid #5DB9E5;/*トップの「相談する]ボタン*/
   background: none;
 }
 
@@ -1058,8 +1058,8 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  border-top: 1px solid #FFCC66;/*newの記事変更のところの上バーの色*/
-  border-bottom: 1px solid #FFCC66;/*newの記事変更のところの下バーの色*/
+  border-top: 1px solid #F5C20D;/*newの記事変更のところの上バーの色*/
+  border-bottom: 1px solid #F5C20D;/*newの記事変更のところの下バーの色*/
 }
 
 .post-pager__item {
@@ -1068,7 +1068,7 @@ img {
 }
 
 .post-pager__item:not(:last-child) {
-  border-right: 1px solid #FFCC66;/*newの記事変更のところの真ん中バーの色*/
+  border-right: 1px solid #F5C20D;/*newの記事変更のところの真ん中バーの色*/
 }
 
 .post-pager__item--prev .post-pager__link {
@@ -1096,7 +1096,7 @@ img {
   height: 100%;
   padding: 10px 20px;
   text-decoration: none;
-  color: #33CCFF/*391e88*/;/*ページ移る*/
+  color: #5DB9E5/*391e88*/;/*ページ移る*/
   font-size: 14px;
   font-size: 0.875rem;
 }
@@ -1228,7 +1228,7 @@ img {
 
 .form__require {
   margin-left: 10px;
-  color: #33CCFF;
+  color: #5DB9E5;
   font-size: 12px;
   font-size: 0.75rem;
 }
@@ -1460,7 +1460,7 @@ img {
   letter-spacing: .2em;
   -ms-writing-mode: tb-rl;
   text-transform: uppercase;
-  color: #33CCFF;/*左下のscrollの文字カラー*/
+  color: #5DB9E5;/*左下のscrollの文字カラー*/
   font-size: 12px;
   font-size: 0.75rem;
   writing-mode: vertical-lr;
@@ -1480,7 +1480,7 @@ img {
   height: 80px;
   content: "";
   animation: scrollDownLine 1.5s cubic-bezier(1, 0, 0, 1) infinite;
-  background: #33CCFF;/*scrollのバーの色*/
+  background: #5DB9E5;/*scrollのバーの色*/
 }
 
 @media screen and (max-width: 768px) {
@@ -1518,7 +1518,7 @@ img {
   align-items: center;
   justify-content: center;
   height: 240px;
-  color: #FFCC66;
+  color: #F5C20D;
   background-image: url(../img/hero.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -1599,7 +1599,7 @@ img {
   font-weight: 900;
   display: block;
   transform: translateY(-50%);
-  color: #33CCFF/*391e88*/;
+  color: #5DB9E5/*391e88*/;
   font-size: 32px;
   font-size: 2rem;
 }
@@ -1618,7 +1618,7 @@ img {
 }
 
 .swiper-pagination-bullet-active {
-  background: #33CCFF/*391e88*/;
+  background: #5DB9E5/*391e88*/;
 }
 
 /*----------------------------------
@@ -1892,7 +1892,7 @@ img {
   height: 100%;
   content: "";
   border-radius: 3px;
-  background-color: #33CCFF/*391e88*/;
+  background-color: #5DB9E5/*391e88*/;
 }
 
 .post__body > h3:first-child {
@@ -2033,7 +2033,7 @@ img {
   margin-top: 30px;
   margin-bottom: 20px;
   padding: 0 15px;
-  color: #33CCFF/*391e88*/;
+  color: #5DB9E5/*391e88*/;
 }
 
 @media screen and (max-width: 768px) {
@@ -2124,7 +2124,7 @@ img {
 
 .job-list__detail {
   padding: 60px 95px;
-  border: 1px solid #FFCC66;
+  border: 1px solid #F5C20D;
   border-radius: 6px;
   background-color: #fff;
 }
