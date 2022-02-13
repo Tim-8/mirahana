@@ -654,7 +654,7 @@ img {
   height: 1px;
   content: "";
   transition: width .3s;
-  background-color: #FFCC66;/*多分右上のリストの_*/
+  background-color: #FFCC66;/*右上のリストの_*/
 }
 
 @media screen and (max-width: 768px) {
@@ -1058,8 +1058,8 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  border-top: 1px solid #b8aed5;
-  border-bottom: 1px solid #b8aed5;
+  border-top: 1px solid #d3009e;
+  border-bottom: 1px solid #48ff00;
 }
 
 .post-pager__item {
