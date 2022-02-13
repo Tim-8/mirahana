@@ -1058,8 +1058,8 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  border-top: 1px solid #d3009e;
-  border-bottom: 1px solid #48ff00;
+  border-top: 1px solid #FFCC66;/*newの記事変更のところの上バーの色*/
+  border-bottom: 1px solid #FFCC66;/*newの記事変更のところの下バーの色*/
 }
 
 .post-pager__item {
@@ -1068,7 +1068,7 @@ img {
 }
 
 .post-pager__item:not(:last-child) {
-  border-right: 1px solid #b8aed5;
+  border-right: 1px solid #db00c9;
 }
 
 .post-pager__item--prev .post-pager__link {
