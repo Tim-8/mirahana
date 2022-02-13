@@ -654,7 +654,7 @@ img {
   height: 1px;
   content: "";
   transition: width .3s;
-  background-color: #33CCFF;
+  background-color: #FFCC66;/*多分右上のリストの_*/
 }
 
 @media screen and (max-width: 768px) {
@@ -1460,7 +1460,7 @@ img {
   letter-spacing: .2em;
   -ms-writing-mode: tb-rl;
   text-transform: uppercase;
-  color: #33CCFF;/*多分左下のscrollのカラー*/
+  color: #33CCFF;/*左下のscrollの文字カラー*/
   font-size: 12px;
   font-size: 0.75rem;
   writing-mode: vertical-lr;
@@ -1480,7 +1480,7 @@ img {
   height: 80px;
   content: "";
   animation: scrollDownLine 1.5s cubic-bezier(1, 0, 0, 1) infinite;
-  background: #ff66eb;
+  background: #33CCFF;/*scrollのバーの色*/
 }
 
 @media screen and (max-width: 768px) {
