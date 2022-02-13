@@ -581,7 +581,7 @@ img {
     height: 100%;
     transition: opacity .3s ease;
     opacity: 0;
-    background-image: linear-gradient(135deg, #ff33f5, #15576d);/*what*/
+    background-image: linear-gradient(135deg,#f7dfb1, #FFCC66);/*リストの背景カラー*/
   }
   .global-nav.show {
     visibility: visible;
