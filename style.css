@@ -734,7 +734,7 @@ img {
 
 .btn-menu.active .btn-menu__line::before, .btn-menu.active .btn-menu__line::after {
   top: 0;
-  background-color: #fff;
+  background-color: rgba(252, 0, 218, 0.815);/*?*/
 }
 
 .btn-menu.active .btn-menu__line::before {
