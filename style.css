@@ -1228,7 +1228,7 @@ img {
 
 .form__require {
   margin-left: 10px;
-  color: #391e88;
+  color: #33CCFF;
   font-size: 12px;
   font-size: 0.75rem;
 }
@@ -1427,7 +1427,7 @@ img {
 
 @media screen and (max-width: 768px) {
   .hero__title {
-    line-height: 20.4;
+    line-height: 1.4;
     font-size: 48px;
     font-size: 3rem;
   }
