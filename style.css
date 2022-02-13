@@ -1460,7 +1460,7 @@ img {
   letter-spacing: .2em;
   -ms-writing-mode: tb-rl;
   text-transform: uppercase;
-  color: #FFCC66;
+  color: #33CCFF;/*多分左下のscrollのカラー*/
   font-size: 12px;
   font-size: 0.75rem;
   writing-mode: vertical-lr;
@@ -1480,7 +1480,7 @@ img {
   height: 80px;
   content: "";
   animation: scrollDownLine 1.5s cubic-bezier(1, 0, 0, 1) infinite;
-  background: #FFCC66;
+  background: #ff66eb;
 }
 
 @media screen and (max-width: 768px) {
